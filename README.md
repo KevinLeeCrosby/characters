@@ -32,7 +32,7 @@ Refer to the following for details:
 
 [Power BI Demo](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/Characters.pbix)
 
-[Jupyter Notebook](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/Characters.ipynb)
+[Jupyter Notebook](https://github.com/KevinLeeCrosby/characters/blob/main/Characters.ipynb)
 
 ## Further Results
 
