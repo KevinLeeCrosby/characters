@@ -8,7 +8,7 @@ September 19, 2021
 
 ## Dataset
 
-![chars74k](chars74k.jpg)
+![chars74k](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/chars74k.jpg)
 
 [Chars74K Dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/index.html)
 
