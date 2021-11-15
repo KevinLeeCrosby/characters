@@ -30,11 +30,15 @@ The updated Powerpoint and Power BI file will be forthcoming and linked below.
 
 In summary, these were the Image Processing enhancements:
 
-![color](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png)
-![grayscale](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png)
-![smoothing](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png)
-![thresholding](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png)
-![edge_detection](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png)
+<div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png" alt="color" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png" alt="grayscale" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png" alt="smoothing" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png" alt="thresholding" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png" alt="edge_detection" width="128" height="128">
+  </div>
+</div>
 
 That is, from the original color image, convert to grayscale, Gaussian smooth, adaptive Otsu thresholding, Canny edge detection.
 
