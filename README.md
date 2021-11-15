@@ -8,7 +8,7 @@ September 19, 2021
 
 ## Dataset
 
-![chars74k](chars74k.jpg)
+![chars74k](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/chars74k.jpg)
 
 [Chars74K Dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/index.html)
 
@@ -30,11 +30,11 @@ The updated Powerpoint and Power BI file will be forthcoming and linked below.
 
 In summary, these were the Image Processing enhancements:
 
-<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png" width="128" height="128">
-<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png" width="128" height="128">
-<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png" width="128" height="128">
-<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png" width="128" height="128">
-<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png" width="128" height="128">
+![color](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png)
+![grayscale](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png)
+![smoothing](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png)
+![thresholding](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png)
+![edge_detection](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png)
 
 That is, from the original color image, convert to grayscale, Gaussian smooth, adaptive Otsu thresholding, Canny edge detection.
 
