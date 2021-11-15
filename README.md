@@ -8,7 +8,7 @@ September 19, 2021
 
 ## Dataset
 
-![chars74k](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/chars74k.jpg)
+![chars74k](chars74k.jpg)
 
 [Chars74K Dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/index.html)
 
@@ -20,11 +20,45 @@ The main objectives was to train a deep Computer Vision (CV) Convolutional Neura
 
 This task was chosen to augment my Natural Language Processing (NLP) skills, and possibly bridge the two Machine Learning fields.
 
-## Preliminary Results
+## Updated Results - November 14th, 2021
 
-After working on the project for the allotted 1 week, an accuracy of 60% was achieved on the Test Set.
+I continued to improve the model by preprocessing the images with Image Processing.
+
+The final results boosted the test accuracy increased to 74%.
+
+The updated Powerpoint and Power BI file will be forthcoming and linked below.
+
+In summary, these were the Image Processing enhancements:
+
+<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png" width="128" height="128">
+<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png" width="128" height="128">
+<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png" width="128" height="128">
+<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png" width="128" height="128">
+<img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png" width="128" height="128">
+
+That is, from the original color image, convert to grayscale, Gaussian smooth, adaptive Otsu thresholding, Canny edge detection.
+
+This is in addition to resizing of the image to 128 by 128 pixels and scaling the pixels to be in the range from 0 to 1.
+
+Also, the training set had random rotations, translations, zoom, and shear as well.
+
+Refer to the following for details:
+
+Powerpoint Presentation: TBD
+
+Power BI Demo: TBD  (includes more examples)
+
+[Jupyter Notebook](https://github.com/KevinLeeCrosby/characters/blob/main/Characters2.ipynb)
+
+## Preliminary Results - September 19th, 2021
+
+After working on the project for the allotted 1 week, the test accuracy of 60% was achieved.
 
 The lower score is partially due to look alike characters, and inexperience building CV CNNs.
+
+The images were converted to grayscale, resized to 128 by 128 pixels, and rescaled with pixel intensities between 0 and 1.
+
+The training set had random rotations, translations, zoom, and shear as well.
 
 Refer to the following for details:
 
@@ -33,12 +67,3 @@ Refer to the following for details:
 [Power BI Demo](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/Characters.pbix)
 
 [Jupyter Notebook](https://github.com/KevinLeeCrosby/characters/blob/main/Characters.ipynb)
-
-## Further Results
-
-After the Capstone project was presented in partial fulfillment to complete the Divergence Academy Data Science Immersive course,
-I decided to continue improving the model.
-
-Eventually, I may add hypertuning of parameters to see how far I can get.
-
-New results:  **_TBD_**
