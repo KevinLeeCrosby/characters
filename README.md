@@ -22,25 +22,25 @@ This task was chosen to augment my Natural Language Processing (NLP) skills, and
 
 ## Updated Results - November 14th, 2021
 
-I continued to improve the model by preprocessing the images with Image Processing.
+After the course completed, I continued to improve the model by preprocessing the images with Image Processing.
 
-The final results boosted the test accuracy increased to 74%.
+The updated results boosted the test accuracy to 74%.
+
+*This approaches the results of other researchers on the same datasets with the same training, validation, test splits (≥76%).*
 
 The updated Powerpoint and Power BI file will be forthcoming and linked below.
 
 In summary, these were the Image Processing enhancements:
 
-<div class="row">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png" alt="color" width="128" height="128">
-    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png" alt="grayscale" width="128" height="128">
-    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png" alt="smoothing" width="128" height="128">
-    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png" alt="thresholding" width="128" height="128">
-    <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png" alt="edge_detection" width="128" height="128">
-  </div>
+<div class="column">
+  <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D1.png" alt="color" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D2.png" alt="grayscale" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D3.png" alt="smoothing" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D4.png" alt="thresholding" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/D5.png" alt="edge_detection" width="128" height="128">
 </div>
 
-That is, from the original color image, convert to grayscale, Gaussian smooth, adaptive Otsu thresholding, Canny edge detection.
+That is, from the original color image, convert to grayscale, adaptive Gaussian smoothing, adaptive Otsu thresholding, Canny edge detection.
 
 This is in addition to resizing of the image to 128 by 128 pixels and scaling the pixels to be in the range from 0 to 1.
 
@@ -56,7 +56,7 @@ Power BI Demo: TBD  (includes more examples)
 
 ## Preliminary Results - September 19th, 2021
 
-After working on the project for the allotted 1 week, the test accuracy of 60% was achieved.
+After working on the Capstone project for the allotted 1 week, the test accuracy of 60% was achieved.
 
 The lower score is partially due to look alike characters, and inexperience building CV CNNs.
 
