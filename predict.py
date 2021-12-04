@@ -76,7 +76,7 @@ def write_endpoint_csv(inDF, expected, actual):
     df = inDF.copy()
     df['expected'] = expected
     df['actual'] = actual
-    df.drop('class', axis=1, inplace=True)
+    df.drop(['class', 'thumbnail'], axis=1, inplace=True)
     df.to_csv("endpoint2.csv", index=False)
 
 
