@@ -50,7 +50,7 @@ Refer to the following for details:
 
 Powerpoint Presentation: TBD
 
-Power BI Demo: TBD  (includes more examples)
+[Power BI Demo](https://raw.githubusercontent.com/KevinLeeCrosby/characters/main/Characters2.pbix)
 
 [Jupyter Notebook](https://github.com/KevinLeeCrosby/characters/blob/main/Characters2.ipynb)
 
